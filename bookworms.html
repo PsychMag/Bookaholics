@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ac490a20f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- First page of the front-end web design i.e. the home page // Code dekh ke kuch nahi hoga gois..padhai pe dhayan do, Exam hai kal Maths ka-->
+    <section class="AboutUs">
+      <nav>
+        <a href="index.html"><img src="./img/logo.svg" /></a>
+        <div class="navlink" id="navLink">
+          <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="bookworms.html">BOOKWORMS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>The Wild Readers</h1>
+    </section>
+    <!-- ------------------------------------------------------------------------------ -->
+    <section class="books">
+      <h1>Room for Bibliophiles</h1>
+      <p>
+        That's the thing about books. They let you travel without moving your
+        feet
+      </p>
+      <div class="row">
+        <div class="bookscol1">
+          <h3>Self-Help Books</h3>
+          <p1>
+            The good thing about a self-help book is that if you misunderstand
+            something then it won't mock you.” “It takes strength and courage to
+            take a step back and remind ourselves that people's reactions are
+            not about us; they are about them.</p1
+          >
+          <br />
+          <a
+            href="https://www.famousauthors.org/best-mystery-books"
+            target="_blank"
+            >EXPLORE MORE</a
+          >
+        </div>
+        <div class="bookscol2">
+          <h3>Horror Books</h3>
+          <p2
+            >Horror intends to create an eerie and frightening atmosphere for
+            the reader. Horror is often divided into the psychological horror
+            and supernatural horror sub-genres</p2
+          >
+          <br />
+          <a
+            href="https://www.barnesandnoble.com/blog/25-terrifying-horror-books-ever/"
+            target="_blank"
+            >EXPLORE MORE</a
+          >
+        </div>
+        <div class="bookscol3">
+          <h3>Mystery Books</h3>
+          <p3
+            >Mystery is a fiction genre where the nature of an event, usually a
+            murder or other crime, remains mysterious until the end of the
+            story.Mystery novels are often called “whodunnits”.</p3
+          >
+          <br />
+          <a
+            href="https://www.purewow.com/books/best-mystery-books"
+            target="_blank"
+            >EXPLORE MORE</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------- -->
+    <section class="audiobook">
+      <h1>Audiobook Addicts</h1>
+      <p4>
+        When you read a book, the story definitely happens inside your head.
+        When you listen, it seems to happen in a little cloud all around it,
+        like a fuzzy knit cap pulled down over your eyes
+      </p4>
+
+      <div class="row1">
+        <div class="audicol1">
+          <div class="layer">
+            <h3>Classic Poetry</h3>
+            <a
+              href="https://www.audible.com/blog/article-best-poetry-audiobooks"
+              target="_blank"
+              >Go Through</a
+            >
+          </div>
+        </div>
+        <div class="audicol2">
+          <div class="layer">
+            <h3>Comic Novels</h3>
+            <a
+              href="https://bookriot.com/comics-that-are-audiobooks/"
+              target="_blank"
+              >Go Through</a
+            >
+          </div>
+        </div>
+        <div class="audicol3">
+          <div class="layer">
+            <h3>Children's Stories</h3>
+            <a
+              href="https://www.penguin.co.uk/articles/children/2019/jan/children-s-audiobooks-for-a-listen-aloud-adventure.html"
+              target="_blank"
+              >Go Through</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------------------- -->
+    <!-- Space to add the footer section of our web design for other sections -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        If we didn't have libraries, many people thirsty for knowledge would
+        dehydrate.<br />So just in case things get boring, We the Bookaholics
+        team are always there for you.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p6>Bookaholics(HP) &copy; 2069 - All Rights Reserved</p6>
+    </section>
+    <!-- ----------------------------------------------------------------------------------->
+    <script>
+      var navLink = document.getElementById("navLink");
+
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-60vw";
+      }
+    </script>
+  </body>
+</html>

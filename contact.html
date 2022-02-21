@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ac490a20f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- First page of the front-end web design i.e. the home page // Code dekh ke kuch nahi hoga gois..padhai pe dhayan do, Exam hai kal Maths ka-->
+    <section class="AboutUs">
+      <nav>
+        <a href="index.html"><img src="./img/logo.svg" /></a>
+        <div class="navlink" id="navLink">
+          <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="bookworms.html">BOOKWORMS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- ------------------------------------------------------------------------------ -->
+    <section class="contact">
+      <div class="row">
+        <div class="contactcol">
+          <div>
+            <i class="fa-solid fa-house-user"></i>
+            <span>
+              <h5>Land of the Lost, Corsica, France</h5>
+              <p>
+                We will arrange the tickets for uh gois(Offer valid only for
+                couples)
+              </p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone-slash"></i>
+            <span>
+              <h5>+33 6996696969</h5>
+              <p>24*7, We're always there for You(kaalpanik)</p>
+            </span>
+          </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <span>
+                <h5>sab.bata.de17@jaddu.com</h5>
+                <p>Don't email us gois, bumsy these days with 69 others</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="contactcol">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="e-mail" placeholder="Enter E-mail Address" required>
+                <input type="text" placeholder="Enter Your Contact Number" required>
+                <textarea rows="8"></textarea>
+            </form>
+        </div> -->
+      </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------- -->
+    <!-- Space to add the footer section of our web design for other sections -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        If we didn't have libraries, many people thirsty for knowledge would
+        dehydrate.<br />So just in case things get boring, We the Bookaholics
+        team are always there for you.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p6>Bookaholics(HP) &copy; 2069 - All Rights Reserved</p6>
+    </section>
+    <!-- ----------------------------------------------------------------------------------->
+    <script>
+      var navLink = document.getElementById("navLink");
+
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-60vw";
+      }
+    </script>
+  </body>
+</html>
